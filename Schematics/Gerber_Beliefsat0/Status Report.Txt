@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [BeliefSat-0 2.0.PrjPcb]
+   Generated File[BeliefSat-0_20.TXT]
+   Generated File[BeliefSat-0_20.DRL]
+   Generated File[BeliefSat-0_20.LDP]
+   Generated File[BeliefSat-0_20.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 9:45:38 AM On 10/17/2023
