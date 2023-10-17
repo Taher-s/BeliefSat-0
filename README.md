@@ -85,8 +85,8 @@ VHF
 
 ` `Antenna:
 
-Nagoya NL-770S VHF/UHF High Gain Mobile Antenna:
 ![image](https://github.com/NewLeapKjsieit/BeliefSat-0/blob/main/Nagoya-NL-770-S-Car-Antenna-500x500.jpg)
+Nagoya NL-770S VHF/UHF High Gain Mobile Antenna:
 
 This antenna boasts a unique feature where the satellite's outer cover serves as the grounding mechanism. The carefully engineered radiation pattern, along with impressive gain parameters, ensures strong signal reception and transmission.
 
