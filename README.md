@@ -21,7 +21,7 @@ What is it made of? What does it look like? What are its dimensions and mass?
 Structure: 
 
 The external structure is constructed using Aluminum 8011.
-![IMG_9147](https://github.com/NewLeapKjsieit/BeliefSat-0/assets/111870945/fa5382aa-2711-4e4d-b652-c33a9d213008)
+
 
 
 `             `]
