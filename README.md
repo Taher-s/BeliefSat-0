@@ -189,7 +189,7 @@ T#sss,111,222,333,444,555,xxxxxxxx where,
 - xxxxxxxx : If the last two bits are 10 then digipeater is on and if they are 01 then voice repeater is on.
 
 References for converting Sensor data into readable format
-
+1. NTC Thermistor: https://robu.in/wp-content/uploads/2016/03/NTC-datasheet.pdf
 1. DC/DC Convertor: https://drive.google.com/drive/folders/0AMwc4gtF42UDUk9PVA
 
 Reference for transreceivers
