@@ -23,6 +23,7 @@ Structure:
 The external structure is constructed using Aluminum 8011.
 
 
+![image](https://github.com/NewLeapKjsieit/BeliefSat-0/assets/111870945/55134dd7-f66a-48bc-922d-d708e6866f02)
 
 `             `]
 
