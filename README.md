@@ -190,7 +190,6 @@ T#sss,111,222,333,444,555,xxxxxxxx where,
 
 References for converting Sensor data into readable format
 
-1. Thermistor:
 1. DC/DC Convertor: https://drive.google.com/drive/folders/0AMwc4gtF42UDUk9PVA
 
 Reference for transreceivers
