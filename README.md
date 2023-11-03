@@ -81,7 +81,7 @@ VHF
 - Output Power : +27/30 dbm
 - Reciever Sensitivity : -122 dbm (As per datasheet, observed sensititvity yet to be calculated) (UHF will only be used for voice repeater uplink)
 
-` `Antenna:
+Antenna:
 
 ![image](https://github.com/NewLeapKjsieit/BeliefSat-0/blob/main/Nagoya-NL-770-S-Car-Antenna-500x500.jpg)
 
