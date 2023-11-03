@@ -91,62 +91,69 @@ This antenna boasts a unique feature where the satellite's outer cover serves as
 
 What sets the NL-770S apart is its robust construction, making it a reliable choice for various conditions. Its dual-band capabilities cover both VHF and UHF frequencies, enhancing its versatility. The antenna's strategic placement on the satellite, connected via a UHF connector at the top, optimizes signal performance.
 
-`  `Link Budget:
+Link Budget:
 
 - UHF Uplink Budget: 
 
-i. Calculation of FSPL() = 20x log(D) + 20x log(F) + 20x log (4x pi/c) - G<sub>TX</sub>  - G<sub>RX</sub>               
+i. Calculation of FSPL() 
+= 20x log(D) + 20x log(F) + 20x log (4x pi/c) - G<sub>TX</sub>  - G<sub>RX</sub>               
 
-`                          `= 149.9724 dBm
+= 149.9724 dBm
 
-ii. Calculation of Power Received (P<sub>RX</sub>) =P<sub>TX</sub>+G<sub>TX</sub>-L<sub>TX</sub>-L<sub>FSPL</sub> -L<sub>RX</sub> +G<sub>RX</sub> -</sub> L<sub>M</sub>
+ii. Calculation of Power Received (P<sub>RX</sub>) 
+= P<sub>TX</sub>+G<sub>TX</sub>-L<sub>TX</sub>-L<sub>FSPL</sub> -L<sub>RX</sub> +G<sub>RX</sub> -</sub> L<sub>M</sub>
 
-`                                                    `=46.99 + 0 - 0 - 149.9724 - 0 + 0 - 0
+= 46.99 + 0 - 0 - 149.9724 - 0 + 0 - 0
 
-`                                                    `= -102.9824 dBm
+= -102.9824 dBm
 
-iii. Link Margin = P<sub>RX</sub> - RS (Receive Sensitivity)
+iii. Link Margin 
+= P<sub>RX</sub> - RS (Receive Sensitivity)
 
-`                         `= (-102.9824 ) - (-122 )
+= (-102.9824 ) - (-122 )
 
-`                         `= 19.0176 dBm
+= 19.0176 dBm
 
 - VHF Uplink Budget: 
 
-i. Calculation of FSPL = 20x log(D) + 20x log(F) + 20x log (4x pi/c) - G<sub>TX</sub>  - G<sub>RX</sub>               
+i. Calculation of FSPL 
+= 20x log(D) + 20x log(F) + 20x log (4x pi/c) - G<sub>TX</sub>  - G<sub>RX</sub>               
 
-`                          `= 140.4300 dBm
+= 140.4300 dBm
 
-ii. Calculation of Power Received (P<sub>RX</sub>) =P<sub>TX</sub>+G<sub>TX</sub>-L<sub>TX</sub>-L<sub>FSPL</sub> -L<sub>RX</sub> +G<sub>RX</sub> -</sub> L<sub>M</sub>
+ii. Calculation of Power Received (P<sub>RX</sub>) 
+= P<sub>TX</sub>+G<sub>TX</sub>-L<sub>TX</sub>-L<sub>FSPL</sub> -L<sub>RX</sub> +G<sub>RX</sub> -</sub> L<sub>M</sub>
 
-`                                                    `=46.99 + 0 - 0 - 140.4300 - 0 + 0 - 0
+= 46.99 + 0 - 0 - 140.4300 - 0 + 0 - 0
 
-`                                                    `= -93.44 dBm
+= -93.44 dBm
 
 iii. Link Margin = P<sub>RX</sub> - RS (Receive Sensitivity)
 
-`                         `= (-93.44 ) - (-122 )
+= (-93.44 ) - (-122 )
 
-`                         `= 28.56 dBm
+= 28.56 dBm
 
 
-- ` `VHF Downlink Budget: 
+- VHF Downlink Budget: 
 
-i. Calculation of FSPL = 20x log(D) + 20x log(F) + 20x log (4x pi/c) - G<sub>TX</sub>  - G<sub>RX</sub>               
+i. Calculation of FSPL 
+= 20x log(D) + 20x log(F) + 20x log (4x pi/c) - G<sub>TX</sub>  - G<sub>RX</sub>               
 
-`                          `= 140.4300 dBm
+= 140.4300 dBm
 
 ii. Calculation of Power Received (P<sub>RX</sub>) = P<sub>TX</sub>+G<sub>TX</sub>-L<sub>TX</sub>-L<sub>FSPL</sub> -L<sub>RX</sub> +G<sub>RX</sub> -</sub> L<sub>M</sub>
 
-`                                                    `=30 + 0 - 0 - 140.4300 - 0 + 0 - 0
+= 30 + 0 - 0 - 140.4300 - 0 + 0 - 0
 
-`                                                    `= -110.43 dBm
+= -110.43 dBm
 
-iii. Link Margin = P<sub>RX</sub> - RS (Receive Sensitivity)
+iii. Link Margin 
+= P<sub>RX</sub> - RS (Receive Sensitivity)
 
-`                         `= (-110.43) - (-121.88 )
+= (-110.43) - (-121.88 )
 
-`                         `= 11.45 dBm
+= 11.45 dBm
 
 Operational Modes:
 
