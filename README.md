@@ -26,8 +26,6 @@ The external structure is constructed using Aluminum 8011.
 ![image](https://github.com/NewLeapKjsieit/BeliefSat-0/assets/111870945/7a989546-70be-4412-b3b2-f4791447a699)
 
 
-`             `]
-
 
 Mechanical Interface:
 
@@ -36,8 +34,8 @@ Mechanical Interface:
 | :-: | :-: | :-: | :-: |
 |Mechanical||||
 |1\.|Maximum Estimate Mass of the payload|g|500  |
-|2\.|Payload Volume(Excluding Antenna)|mm <sup>3</sup>|` `150x118x34 |
-|3\. |Payload Volume (Including Antenna)|mm <sup>3</sup>|` `150x118x512|
+|2\.|Payload Volume(Excluding Antenna)|mm <sup>3</sup>| 150x118x34 |
+|3\. |Payload Volume (Including Antenna)|mm <sup>3</sup>| 150x118x512|
 |4\.|Antenna Length (Nagoya NL-770S VHF/UHF High Gain Mobile Antenna)|mm|480|
 |5\.|Payload mechanical interface||6x M5 HEX steel bolt|
 
