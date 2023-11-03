@@ -165,15 +165,15 @@ The operational modes of the payload are:
 
 In the following table, we have listed three different commands along with their descriptions:
 
-1\. Command:!MODE\_CHANGER@<ModeNumber>
+1\. Command: !MODE\_CHANGER@<ModeNumber>
 
 Description: This command is used to change the operating mode, and it accepts a ModeNumber parameter that can be set to 0, 1, or 2.
 
-2\. Command:!VHF\_RX\_FREQ\_CHANGER #<FREQUENCY>
+2\. Command: !VHF\_RX\_FREQ\_CHANGER #<FREQUENCY>
 
 Description: This command is employed for altering the receiving (RX) frequency of a VHF (Very High Frequency) device. You need to specify the desired frequency using the FREQUENCY parameter.
 
-3\.Command: !VHF\_TX\_FREQ\_CHANGER %<FREQUENCY>
+3\.Command:  !VHF\_TX\_FREQ\_CHANGER %<FREQUENCY>
 
 Description: This command allows you to modify the transmitting (TX) frequency of a VHF (Very High Frequency) device. To do this, provide the new frequency as the FREQUENCY parameter.
 
