@@ -63,99 +63,95 @@ Our payload requires a nominal power supply of 2W and peak power supply of upto 
 
 Transciever Specs 
 
-VHF
+**VHF**
+**- Name :** [DRA818V](http://www.dorji.com/products.php?Keyword=dra818v)
+**- Frequency Range :** 134~174 Mhz
+**- Channel Space :** 12.5/25 KHz
+**- TX Current :** 450/750 mA
+**- Temperature :** -20°C ~ +70°C
+**- Output Power :** +27/30 dbm
+**- Reciever Sensitivity :** -122 dbm (As per datasheet, observed sensititvity yet to be calculated)
+ 
+ ** UHF**
+**- Name :** [DRA818U](http://www.dorji.com/products.php?Keyword=dra818u)
+**- Frequency Range :** 400~470 Mhz
+**- Channel Space :** 25 KHz
+**- TX Current :** 450/750 mA
+**- Temperature :** -20°C ~ +70°C
+**- Output Power :** +27/30 dbm
+**- Reciever Sensitivity :** -122 dbm (As per datasheet, observed sensititvity yet to be calculated) (UHF will only be used for voice repeater uplink)
 
-- Name : [DRA818V](http://www.dorji.com/products.php?Keyword=dra818v)
-- Frequency Range : 134~174 Mhz
-- Channel Space : 12.5/25 KHz
-- TX Current : 450/750 mA
-- Temperature : -20°C ~ +70°C
-- Output Power : +27/30 dbm
-- Reciever Sensitivity : -122 dbm (As per datasheet, observed sensititvity yet to be calculated)
-  UHF
-- Name : [DRA818U](http://www.dorji.com/products.php?Keyword=dra818u)
-- Frequency Range : 400~470 Mhz
-- Channel Space : 25 KHz
-- TX Current : 450/750 mA
-- Temperature : -20°C ~ +70°C
-- Output Power : +27/30 dbm
-- Reciever Sensitivity : -122 dbm (As per datasheet, observed sensititvity yet to be calculated) (UHF will only be used for voice repeater uplink)
-
-Antenna:
+**Antenna:**
 
 ![image](https://github.com/NewLeapKjsieit/BeliefSat-0/blob/main/Nagoya-NL-770-S-Car-Antenna-500x500.jpg)
 
-Nagoya NL-770S VHF/UHF High Gain Mobile Antenna:
+**Nagoya NL-770S VHF/UHF High Gain Mobile Antenna:**
 
 This antenna boasts a unique feature where the satellite's outer cover serves as the grounding mechanism. The carefully engineered radiation pattern, along with impressive gain parameters, ensures strong signal reception and transmission.
 
 What sets the NL-770S apart is its robust construction, making it a reliable choice for various conditions. Its dual-band capabilities cover both VHF and UHF frequencies, enhancing its versatility. The antenna's strategic placement on the satellite, connected via a UHF connector at the top, optimizes signal performance.
 
-Link Budget:
+**Link Budget:**
 
-- UHF Uplink Budget: 
+**- UHF Uplink Budget: **
 
-i. Calculation of FSPL() 
+**i. Calculation of FSPL()** 
+
 = 20x log(D) + 20x log(F) + 20x log (4x pi/c) - G<sub>TX</sub>  - G<sub>RX</sub>               
-
 = 149.9724 dBm
 
-ii. Calculation of Power Received (P<sub>RX</sub>) 
+**ii. Calculation of Power Received (P<sub>RX</sub>) **
+
 = P<sub>TX</sub>+G<sub>TX</sub>-L<sub>TX</sub>-L<sub>FSPL</sub> -L<sub>RX</sub> +G<sub>RX</sub> -</sub> L<sub>M</sub>
-
 = 46.99 + 0 - 0 - 149.9724 - 0 + 0 - 0
-
 = -102.9824 dBm
 
-iii. Link Margin 
+**iii. Link Margin **
+
 = P<sub>RX</sub> - RS (Receive Sensitivity)
-
 = (-102.9824 ) - (-122 )
-
 = 19.0176 dBm
 
-- VHF Uplink Budget: 
+**- VHF Uplink Budget: **
 
-i. Calculation of FSPL 
+**i. Calculation of FSPL **
+
 = 20x log(D) + 20x log(F) + 20x log (4x pi/c) - G<sub>TX</sub>  - G<sub>RX</sub>               
-
 = 140.4300 dBm
 
-ii. Calculation of Power Received (P<sub>RX</sub>) 
+**ii. Calculation of Power Received (P<sub>RX</sub>) 
+**
 = P<sub>TX</sub>+G<sub>TX</sub>-L<sub>TX</sub>-L<sub>FSPL</sub> -L<sub>RX</sub> +G<sub>RX</sub> -</sub> L<sub>M</sub>
-
 = 46.99 + 0 - 0 - 140.4300 - 0 + 0 - 0
-
 = -93.44 dBm
 
-iii. Link Margin = P<sub>RX</sub> - RS (Receive Sensitivity)
+**iii. Link Margin**
 
+= P<sub>RX</sub> - RS (Receive Sensitivity)
 = (-93.44 ) - (-122 )
-
 = 28.56 dBm
 
 
-- VHF Downlink Budget: 
+**- VHF Downlink Budget: **
 
-i. Calculation of FSPL 
+**i. Calculation of FSPL **
+
 = 20x log(D) + 20x log(F) + 20x log (4x pi/c) - G<sub>TX</sub>  - G<sub>RX</sub>               
-
 = 140.4300 dBm
 
-ii. Calculation of Power Received (P<sub>RX</sub>) = P<sub>TX</sub>+G<sub>TX</sub>-L<sub>TX</sub>-L<sub>FSPL</sub> -L<sub>RX</sub> +G<sub>RX</sub> -</sub> L<sub>M</sub>
+**ii. Calculation of Power Received (P<sub>RX</sub>) **
 
+= P<sub>TX</sub>+G<sub>TX</sub>-L<sub>TX</sub>-L<sub>FSPL</sub> -L<sub>RX</sub> +G<sub>RX</sub> -</sub> L<sub>M</sub>
 = 30 + 0 - 0 - 140.4300 - 0 + 0 - 0
-
 = -110.43 dBm
 
-iii. Link Margin 
+**iii. Link Margin** 
+
 = P<sub>RX</sub> - RS (Receive Sensitivity)
-
 = (-110.43) - (-121.88 )
-
 = 11.45 dBm
 
-Operational Modes:
+**Operational Modes:**
 
 The operational modes of the payload are:
 
@@ -177,7 +173,7 @@ Description: This command is employed for altering the receiving (RX) frequency 
 
 Description: This command allows you to modify the transmitting (TX) frequency of a VHF (Very High Frequency) device. To do this, provide the new frequency as the FREQUENCY parameter.
 
-Satellite Mode Sequencing and Safety Protocols:
+**Satellite Mode Sequencing and Safety Protocols:**
 Upon satellite power-up, it initiates in safe mode, consistently transmitting telemetry every 30 seconds. Following a day of safe mode operations, we issue a command to transition to the digipeater mode. Subsequently, we maintain a one-day duration in digipeater mode before issuing a command to switch to the full mode, enabling both repeater and digipeater functionalities.
 
 The satellite remains in this state, with a daily reset counter uplink command to sustain control. If the reset counter command is not received on any day, it indicates a receiver fault or operational issue. Consequently, the satellite autonomously reverts to safe mode until receiving reactivation instructions, a measure to mitigate potential spurious emissions in cases where the transmitter malfunctions and communication cannot be established.
@@ -185,9 +181,9 @@ The satellite remains in this state, with a daily reset counter uplink command t
 Hence, a daily connection is imperative, ensuring full communication; otherwise, only telemetry will be transmitted, maintaining the satellite in a state similar to a sputnik.
 
 
-What are the different packet types and packet formats?
+**What are the different packet types and packet formats?**
 
-Telemetry Packet
+**Telemetry Packet**
 
 APRS TELEMETRY FORMAT : The on-air packet telemetry format is as follows:
 
