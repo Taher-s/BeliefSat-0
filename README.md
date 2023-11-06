@@ -72,7 +72,7 @@ Transciever Specs
 **- Output Power :** +27/30 dbm
 **- Reciever Sensitivity :** -122 dbm (As per datasheet, observed sensititvity yet to be calculated)
  
- ** UHF**
+**UHF**
 **- Name :** [DRA818U](http://www.dorji.com/products.php?Keyword=dra818u)
 **- Frequency Range :** 400~470 Mhz
 **- Channel Space :** 25 KHz
