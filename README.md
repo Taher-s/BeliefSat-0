@@ -177,6 +177,14 @@ Description: This command is employed for altering the receiving (RX) frequency 
 
 Description: This command allows you to modify the transmitting (TX) frequency of a VHF (Very High Frequency) device. To do this, provide the new frequency as the FREQUENCY parameter.
 
+Satellite Mode Sequencing and Safety Protocols:
+Upon satellite power-up, it initiates in safe mode, consistently transmitting telemetry every 30 seconds. Following a day of safe mode operations, we issue a command to transition to the digipeater mode. Subsequently, we maintain a one-day duration in digipeater mode before issuing a command to switch to the full mode, enabling both repeater and digipeater functionalities.
+
+The satellite remains in this state, with a daily reset counter uplink command to sustain control. If the reset counter command is not received on any day, it indicates a receiver fault or operational issue. Consequently, the satellite autonomously reverts to safe mode until receiving reactivation instructions, a measure to mitigate potential spurious emissions in cases where the transmitter malfunctions and communication cannot be established.
+
+Hence, a daily connection is imperative, ensuring full communication; otherwise, only telemetry will be transmitted, maintaining the satellite in a state similar to a sputnik.
+
+
 What are the different packet types and packet formats?
 
 Telemetry Packet
