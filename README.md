@@ -61,7 +61,7 @@ Our payload requires a nominal power supply of 2W and peak power supply of upto 
 
 # How does it communicate?
 
-Transciever Specs 
+**Transciever Specs **
 
 **VHF**
 -**Name :** [DRA818V](http://www.dorji.com/products.php?Keyword=dra818v)
