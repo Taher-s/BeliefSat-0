@@ -49,7 +49,7 @@ The interface connector details are provided in the table given below:
 
 |**CONNECTOR TYPE**|D-sub 9 Pin Connector|
 | :- | :- |
-|**On payload**|RECEPTACLE-TYPE (female) (Refer **Appendix B** for pictorial information)|
+|**On payload**|RECEPTACLE-TYPE (female) (Refer **Images** for pictorial information)|
 |**On Launch Vehicle**|PIN-TYPE (male)|
 |**Location**|On the side plate, which is situated in the XZ plane (along negative Y axis)|
 
@@ -57,7 +57,7 @@ Only the VCC and the ground pin of the DB9 connector will be connected to the ve
 
 Power requirements:
 
-Our payload requires a nominal power supply of 2W and peak power supply of upto 9W
+Our payload requires a nominal power supply of 2W and peak power supply of upto 10W
 
 # How does it communicate?
 
@@ -163,11 +163,11 @@ The operational modes of the payload are:
 1. Digipeater only mode :Telemetry once every 60 seconds and digipeater functionality active
 1. Full function mode : Telemetry once every 60 seconds, both digipeater and voice repeater active
 
-In the following table, we have listed three different commands along with their descriptions:
+In the following description, we have listed three different commands:
 
 1\. Command: !MODE\_CHANGER@<ModeNumber>
 
-Description: This command is used to change the operating mode, and it accepts a ModeNumber parameter that can be set to 0, 1, or 2.
+Description: This command is used to change the operating mode, and it accepts a ModeNumber parameter that can be set to 0, 1, or 2. Essentially, 0,1, or 2 corresponds to modes 1,2 and 3. 
 
 2\. Command: !VHF\_RX\_FREQ\_CHANGER #<FREQUENCY>
 
@@ -195,6 +195,8 @@ T#sss,111,222,333,444,555,xxxxxxxx where,
 
 References for converting Sensor data into readable format
 1. NTC Thermistor: https://robu.in/wp-content/uploads/2016/03/NTC-datasheet.pdf
+
+Refrences for power IC is given below:
 1. DC/DC Convertor: https://drive.google.com/drive/folders/0AMwc4gtF42UDUk9PVA
 
 Reference for transreceivers
