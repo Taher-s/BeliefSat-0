@@ -2,7 +2,7 @@
 
 BeliefSat-0 is developed by students of K.J. Somaiya Institute of Technology to widen the reach of Amateur Radio-operators around the globe. The payload is a part of tribute to 100 years of Amateur Radio in India and meant to be in service to the Amateur radio community worldwide. The payload will perform UHF to VHF FM Voice Repeating and APRS Digipeating. It will have the following amateur radio payloads onboard:
 
-1. Amateur Band UHF to VHF FM voice repeater with 2.5 KHz max bandwidth and 12.5 KHz channel spacing. 67.0 Hz CTCSS tone for uplink. 
+1. Amateur Band UHF to VHF FM voice repeater with 12.5 KHz max bandwidth and 12.5 KHz channel spacing. 67.0 Hz CTCSS tone for uplink. 
 1. VHF APRS Digipeater with 71.9 Hz CTCSS tone on the uplink. 
 
 The ongoing project is in an advanced stage of development by the dedicated student team of our Institute's Student Satellite Program “New Leap Initiative”, led by the expertise of Principal Investigator Dr. Umesh Shinde. 
