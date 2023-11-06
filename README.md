@@ -64,22 +64,22 @@ Our payload requires a nominal power supply of 2W and peak power supply of upto 
 Transciever Specs 
 
 **VHF**
-**- Name :** [DRA818V](http://www.dorji.com/products.php?Keyword=dra818v)
-**- Frequency Range :** 134~174 Mhz
-**- Channel Space :** 12.5/25 KHz
-**- TX Current :** 450/750 mA
-**- Temperature :** -20°C ~ +70°C
-**- Output Power :** +27/30 dbm
-**- Reciever Sensitivity :** -122 dbm (As per datasheet, observed sensititvity yet to be calculated)
+-**Name :** [DRA818V](http://www.dorji.com/products.php?Keyword=dra818v)
+-**Frequency Range :** 134~174 Mhz
+-**Channel Space :** 12.5/25 KHz
+-**TX Current :** 450/750 mA
+-**Temperature :** -20°C ~ +70°C
+-**Output Power :** +27/30 dbm
+-**Reciever Sensitivity :** -122 dbm (As per datasheet, observed sensititvity yet to be calculated)
  
 **UHF**
-**- Name :** [DRA818U](http://www.dorji.com/products.php?Keyword=dra818u)
-**- Frequency Range :** 400~470 Mhz
-**- Channel Space :** 25 KHz
-**- TX Current :** 450/750 mA
-**- Temperature :** -20°C ~ +70°C
-**- Output Power :** +27/30 dbm
-**- Reciever Sensitivity :** -122 dbm (As per datasheet, observed sensititvity yet to be calculated) (UHF will only be used for voice repeater uplink)
+-**Name :** [DRA818U](http://www.dorji.com/products.php?Keyword=dra818u)
+-**Frequency Range :** 400~470 Mhz
+-**Channel Space :** 25 KHz
+-**TX Current :** 450/750 mA
+-**Temperature :** -20°C ~ +70°C
+-**Output Power :** +27/30 dbm
+-**Reciever Sensitivity :** -122 dbm (As per datasheet, observed sensititvity yet to be calculated) (UHF will only be used for voice repeater uplink)
 
 **Antenna:**
 
