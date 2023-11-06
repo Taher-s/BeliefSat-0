@@ -12,7 +12,7 @@ This project aims to develop and demonstrate the technology utilizing nano-satel
 Working of BeliefSat-0:
 
 1. The satellite will be launched through PSLV, this opportunity was presented to us by IN-SPACe (ISRO) as part of their POEM (PSLV Orbital Experimental Module)
-1. The satellite will be positioned in a 650km orbit with a 6-degree inclination.
+1. The satellite will be positioned in a 650km orbit with a 8 to 9-degree inclination.
 1. Its major function is voice repeating and APRS digipeating for the HAM radio community as our project main aim is to widen the reach of the HAM radio operators.
 1. In the final stage of the PSLV, the satellite will have a continuous power supply which ensures the satellite's functionality.
 
