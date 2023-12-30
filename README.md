@@ -186,6 +186,7 @@ Hence, a daily connection is imperative, ensuring full communication; otherwise,
 **Telemetry Packet**
 
 APRS TELEMETRY FORMAT : The on-air packet telemetry format is as follows:
+
 t#51,0,255,255,-12.40,-12.40,xxxxxxBeliefSat
 
 51 : LSB of total number of system resets
