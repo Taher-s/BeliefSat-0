@@ -187,16 +187,23 @@ Hence, a daily connection is imperative, ensuring full communication; otherwise,
 
 APRS TELEMETRY FORMAT : The on-air packet telemetry format is as follows:
 
-t#51,0,255,255,-12.40,-12.40,xxxxxxBeliefSat
+------>t#51,0,255,255,-12.40,-12.40,xxxxxxBeliefSat<------
 
-51 : LSB of total number of system resets
-0 : MSB of total number of system resets
+51 : LSB of total number of system resets.
+
+0 : MSB of total number of system resets.
+
 255: LSB of total number of resets induced by watchdog
+
 255 : MSB of total number of resets induced by watchdog
+
 -12.40: Temperature sensor 1 reading (Temperature of  Payload )
+
 -12.40: Temperature sensor 2 reading (Temperature of Transreceiver)
+
 xxxxxx : Used as a separation for easier extraction of data in json format
-BeliefSat: name of our Satellite BeliefSat0
+
+BeliefSat: Name of our Satellite BeliefSat0
 
 References for converting Sensor data into readable format
 1. NTC Thermistor: https://robu.in/wp-content/uploads/2016/03/NTC-datasheet.pdf
