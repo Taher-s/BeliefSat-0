@@ -1,19 +1,19 @@
 # BeliefSat-0
 
-BeliefSat-0 is developed by students of K.J. Somaiya Institute of Technology to widen the reach of Amateur Radio-operators around the globe. The payload is a part of tribute to 100 years of Amateur Radio in India and meant to be in service to the Amateur radio community worldwide. The payload will perform UHF to VHF FM Voice Repeating and APRS Digipeating. It will have the following amateur radio payloads onboard:
+BeliefSat-0 is developed by students of K.J. Somaiya Institute of Technology to widen the reach of Amateur Radio-operators around the globe. The payload is a part of tribute to 100 years of Amateur Radio in India and meant to be in service to the Amateur radio community worldwide. The payload performs UHF to VHF FM Voice Repeating and APRS Digipeating. It has the following amateur radio payloads onboard:
 
 1. Amateur Band UHF to VHF FM voice repeater with 12.5 KHz max bandwidth and 12.5 KHz channel spacing. 67.0 Hz CTCSS tone for uplink. 
 1. VHF APRS Digipeater with 71.9 Hz CTCSS tone on the uplink. 
 
-The ongoing project is in an advanced stage of development by the dedicated student team of our Institute's Student Satellite Program “New Leap Initiative”, led by the expertise of Principal Investigator Dr. Umesh Shinde. 
+The project was developed by the dedicated student team of our Institute's Student Satellite Program “New Leap Initiative”, led by the expertise of Principal Investigator Dr. Umesh Shinde. 
 
 This project aims to develop and demonstrate the technology utilizing nano-satellite technology to make space tech more accessible to educational and low budget commercial missions, by utilizing inexpensive, off the shelf technologies and easily available materials. 
 
 Working of BeliefSat-0:
 
-1. The satellite will be launched through PSLV, this opportunity was presented to us by IN-SPACe (ISRO) as part of their POEM (PSLV Orbital Experimental Module)
-1. The satellite will be positioned in a 650km orbit with a 8 to 9-degree inclination.
-1. Its major function is voice repeating and APRS digipeating for the HAM radio community as our project main aim is to widen the reach of the HAM radio operators.
+1. The satellite was launched through PSLV, this opportunity was presented to us by IN-SPACe (ISRO) as part of their POEM (PSLV Orbital Experimental Module)
+1. The satellite is positioned in a 350km orbit with a 8 to 9-degree inclination.
+1. Its major function is voice repeating and APRS digipeating for the HAM radio community.
 1. In the final stage of the PSLV, the satellite will have a continuous power supply which ensures the satellite's functionality.
 
 ### What is it made of? What does it look like? What are its dimensions and mass?
@@ -43,7 +43,7 @@ Mechanical Interface:
 
 **Electrical interface:**
 
-The payload will be supplied power from the launch vehicle to which it will be connected by a DB9 connector.
+Power for the payload is supplied from the launch vehicle to which it is connected by a DB9 connector.
 
 The interface connector details are provided in the table given below:
 
@@ -53,7 +53,7 @@ The interface connector details are provided in the table given below:
 |**On Launch Vehicle**|PIN-TYPE (male)|
 |**Location**|On the side plate, which is situated in the XZ plane (along negative Y axis)|
 
-Only the VCC and the ground pin of the DB9 connector will be connected to the vehicle.
+Only the VCC and the ground pin of the DB9 connector are connected to the vehicle.
 
 Power requirements:
 
