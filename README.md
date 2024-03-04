@@ -217,5 +217,5 @@ Reference for transreceivers
 1. DRA818U :-  [Datasheet](http://www.dorji.com/docs/data/DRA818U.pdf)
 
 
-
+The implementation of APRS packeting system for this project was largely dependant on Github user markqvist's LibAPRS repository(https://github.com/markqvist/LibAPRS.git)
 
