@@ -12,9 +12,15 @@ This project aims to develop and demonstrate the technology utilizing nano-satel
 Working of BeliefSat-0:
 
 1. The satellite was launched through PSLV, this opportunity was presented to us by IN-SPACe (ISRO) as part of their POEM (PSLV Orbital Experimental Module)
-1. The satellite is positioned in a 350km orbit with a 8 to 9-degree inclination.
-1. Its major function is voice repeating and APRS digipeating for the HAM radio community.
-1. In the final stage of the PSLV, the satellite will have a continuous power supply which ensures the satellite's functionality.
+2. The satellite is positioned in a 350km orbit with a 8 to 9-degree inclination.
+3. Its major function is voice repeating and APRS digipeating for the HAM radio community.
+
+
+
+
+
+
+4. In the final stage of the PSLV, the satellite will have a continuous power supply which ensures the satellite's functionality.
 
 ### What is it made of? What does it look like? What are its dimensions and mass?
 
@@ -156,8 +162,8 @@ iii. Link Margin
 The operational modes of the payload are:
 
 1. Safe mode (initial mode) : Telemetry once every 30 seconds
-1. Digipeater only mode :Telemetry once every 60 seconds and digipeater functionality active
-1. Full function mode : Telemetry once every 60 seconds, both digipeater and voice repeater active
+2. Digipeater only mode :Telemetry once every 60 seconds and digipeater functionality active
+3. Full function mode : Telemetry once every 60 seconds, both digipeater and voice repeater active
 
 In the following description, we have listed three different commands:
 
